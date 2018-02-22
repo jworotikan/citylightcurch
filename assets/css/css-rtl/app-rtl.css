@@ -1,8 +1,9 @@
 /*
-* Template Name: Unify - Responsive Bootstrap Template
-* Version: 1.9.2
-* Author: @htmlstream
-* Website: http://htmlstream.com
+ * Template Name: Unify - Responsive Bootstrap Template
+ * Description: Business, Corporate, Portfolio, E-commerce, Blog and One Page Template.
+ * Version: 1.7
+ * Author: @htmlstream
+ * Website: http://htmlstream.com
 */
 
 /*Reset Styles
@@ -68,7 +69,7 @@ h1, h2, h3, h4, h5, h6 {
   margin-top: 5px;
   text-shadow: none;
   font-weight: normal;
-  font-family: 'Open Sans', sans-serif;
+  font-family: "Open Sans", Arial, sans-serif;
 }
 
 h1 i, h2 i, h3 i, h4 i, h5 i, h6 i {
@@ -203,7 +204,7 @@ h1 i, h2 i, h3 i, h4 i, h5 i, h6 i {
   margin-bottom: 15px;
   padding-bottom: 20px;
   text-transform: uppercase;
-  font-family: 'Open Sans', sans-serif;
+  font-family: "Open Sans", Arial, sans-serif;
 }
 
 .title-v1 h1:after,
@@ -1462,79 +1463,95 @@ span.label {
 }
 
 /*Badges*/
-span.badge {
+span.badge,
+.list-group-item.active>.badge {
+  color: #fff;
   font-weight: 400;
   padding: 4px 7px;
 }
 
 span.label-u,
-span.badge-u {
+span.badge-u,
+.list-group-item.active>.badge.badge-u {
   background: #72c02c;
 }
 
 span.label-blue,
-span.badge-blue {
+span.badge-blue,
+.list-group-item.active>.badge {
   background: #3498db;
 }
 
 span.label-red,
-span.badge-red {
+span.badge-red,
+.list-group-item.active>.badge {
   background: #e74c3c;
 }
 
 span.label-green,
-span.badge-green {
+span.badge-green,
+.list-group-item.active>.badge.badge-green {
   background: #2ecc71;
 }
 
 span.label-sea,
-span.badge-sea {
+span.badge-sea,
+.list-group-item.active>.badge.badge-sea {
   background: #1abc9c;
 }
 
 span.label-orange,
-span.badge-orange {
+span.badge-orange,
+.list-group-item.active>.badge.badge-orange {
   background: #e67e22;
 }
 
 span.label-yellow,
-span.badge-yellow {
+span.badge-yellow,
+.list-group-item.active>.badge.badge-yellow {
   background: #f1c40f;
 }
 
 span.label-purple,
-span.badge-purple {
+span.badge-purple,
+.list-group-item.active>.badge.badge-purple {
   background: #9b6bcc;
 }
 
 span.label-aqua,
-span.badge-aqua {
+span.badge-aqua,
+.list-group-item.active>.badge.badge-aqua {
   background: #27d7e7;
 }
 
 span.label-brown,
-span.badge-brown {
+span.badge-brown,
+.list-group-item.active>.badge.badge-brown {
   background: #9c8061;
 }
 
 span.label-dark-blue,
-span.badge-dark-blue {
+span.badge-dark-blue,
+.list-group-item.active>.badge.badge-dark-blue {
   background: #4765a0;
 }
 
 span.label-light-green,
-span.badge-light-green {
+span.badge-light-green,
+.list-group-item.active>.badge.badge-light-green {
   background: #79d5b3;
 }
 
 span.label-light,
-span.badge-light {
+span.badge-light,
+.list-group-item.active>.badge.badge-light {
   color: #777;
   background: #ecf0f1;
 }
 
 span.label-dark,
-span.badge-dark {
+span.badge-dark,
+.list-group-item.active>.badge.badge-dark {
   background: #555;
 }
 
@@ -3360,8 +3377,6 @@ img.image-md {
 .margin-bottom-50 { margin-bottom:50px;}
 .margin-bottom-55 { margin-bottom:55px;}
 .margin-bottom-60 { margin-bottom:60px;}
-.margin-bottom-80 { margin-bottom:80px;}
-.margin-bottom-100 { margin-bottom:100px;}
 
 @media (max-width: 768px) {
   .sm-margin-bottom-10 {
@@ -3413,21 +3428,7 @@ img.image-md {
 .margin-right-10 { margin-left: 10px;}
 
 .padding-top-5 { padding-top: 5px;}
-.padding-top-10 { padding-top: 10px;}
-.padding-top-20 { padding-top: 20px;}
-.padding-top-50 { padding-top: 50px;}
-.padding-top-70 { padding-top: 70px;}
-.padding-top-100 { padding-top: 100px;}
-
 .padding-left-5 { padding-right: 5px;}
-
-.padding-bottom-5 { padding-bottom: 5px;}
-.padding-bottom-10 { padding-bottom: 10px;}
-.padding-bottom-20 { padding-bottom: 20px;}
-.padding-bottom-30 { padding-bottom: 30px;}
-.padding-bottom-50 { padding-bottom: 50px;}
-.padding-bottom-70 { padding-bottom: 70px;}
-.padding-bottom-100 { padding-bottom: 100px;}
 
 /*Text Colors
 ------------------------------------*/
@@ -3501,9 +3502,6 @@ img.image-md {
   border-top: solid 1px #eee;
   border-bottom: solid 1px #eee;
 }
-.bg-grey2 {
-  background: #f4f6f6;
-}
 
 /*Rounded and Circle Classes
 ------------------------------------*/
@@ -3515,10 +3513,10 @@ img.image-md {
 .rounded-4x { border-radius: 20px !important;}
 .rounded-sm { border-radius: 2px !important;}
 .rounded-md { border-radius: 3px !important;}
-.rounded-top { border-radius: 4px 4px 0 0 !important;}
-.rounded-left { border-radius: 0 4px 4px 0 !important;}
-.rounded-right { border-radius: 4px 0 0 4px !important;}
-.rounded-bottom { border-radius: 0 0 4px 4px !important;}
+.rounded-top { border-radius: 4px 0 0 4px !important;}
+.rounded-left { border-radius: 4px 4px 0 0 !important;}
+.rounded-right { border-radius: 0 0 4px 4px !important;}
+.rounded-bottom { border-radius: 0 4px 4px 0 !important;}
 
 /*Others
 ------------------------------------*/

@@ -8,7 +8,7 @@
 
 </head>
 
-<body id="body" data-spy="scroll" data-target=".one-page-header" class="demo-lightbox-gallery dark">
+<body id="body" data-spy="scroll" data-target=".one-page-header" class="demo-lightbox-gallery">
 	<?php
 		require 'header.php';
 		require 'intro.php';
@@ -19,56 +19,22 @@
 					<p>THE ROCKS is a modern christian church located in Perth’s suburb of Cannington with a message of grace for everyone. Here, we don’t judge people or assume they’ve got their lives together. You don’t even have to be a Christian to attend. We are ordinary people who acknowledge that we all in some way have messed up and in need of God’s grace. So no matter where you are in your spiritual journey, we’d love for you to join us to see what we’re about. . You won’t regret it. Dress casual and come as you are. There are no perfect people allowed here. 🙂</p>
 				</div><!--/end Headline Center-->
 
-				<div class="row margin-bottom-40">
-					<div class="col-md-4">
-						<div class="content-boxes-v5 margin-bottom-30">
-							<i class="rounded-x icon-layers"></i>
-							<div class="overflow-h">
-								<h3 class="no-top-space">Responsive Layout</h3>
-								<p>Proin et augue vel nisi rhoncus tincidunt. Cras venenatis</p>
-							</div>
-						</div>
-						<div class="content-boxes-v5 md-margin-bottom-30">
-							<i class="rounded-x icon-settings"></i>
-							<div class="overflow-h">
-								<h3 class="no-top-space">Color Options</h3>
-								<p>Proin et augue vel nisi rhoncus tincidunt. Cras venenatis</p>
-							</div>
-						</div>
+								<!-- Service Box -->
+				<div class="row text-center margin-bottom-60">
+					<div class="col-sm-6 md-margin-bottom-50">
+						<div alt="" class="fa fa-map"></div>
+						<p>WORSHIP EXPERIENCE<br>
+							SUNDAY 9:00 & 11:00 AM<br>
+							26 CECIL AVENUE, CANNINGTON</p>
 					</div>
-					<div class="col-md-4">
-						<div class="content-boxes-v5 margin-bottom-30">
-							<i class="rounded-x icon-earphones-alt "></i>
-							<div class="overflow-h">
-								<h3 class="no-top-space">Outstanding Support</h3>
-								<p>Proin et augue vel nisi rhoncus tincidunt. Cras venenatis</p>
-							</div>
-						</div>
-						<div class="content-boxes-v5 md-margin-bottom-30">
-							<i class="rounded-x icon-user "></i>
-							<div class="overflow-h">
-								<h3 class="no-top-space">User Friendly</h3>
-								<p>Proin et augue vel nisi rhoncus tincidunt. Cras venenatis</p>
-							</div>
-						</div>
+					<div class="col-sm-6 flat-service md-margin-bottom-50">
+						<div class="image-md margin-bottom-20"></div>
+						<p>GOT QUESTIONS?<br>
+							E-MAIL YOUR INQUIRY TO:<br>
+							INFO@THEROCKS.CHURCH</p>
 					</div>
-					<div class="col-md-4">
-						<div class="content-boxes-v5 margin-bottom-30">
-							<i class="rounded-x icon-wrench"></i>
-							<div class="overflow-h">
-								<h3 class="no-top-space">Customizable Design</h3>
-								<p>Proin et augue vel nisi rhoncus tincidunt. Cras venenatis</p>
-							</div>
-						</div>
-						<div class="content-boxes-v5 md-margin-bottom-30">
-							<i class="rounded-x icon-star"></i>
-							<div class="overflow-h">
-								<h3 class="no-top-space">Free Updates</h3>
-								<p>Proin et augue vel nisi rhoncus tincidunt. Cras venenatis</p>
-							</div>
-						</div>
-					</div>
-				</div><!--/end row-->
+				</div>
+				<!-- End Service Box --><!--/end row-->
 			</div>
 	<?php
 		require 'footlink.php';

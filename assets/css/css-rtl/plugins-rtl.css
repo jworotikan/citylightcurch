@@ -1,8 +1,9 @@
-/*
-* Template Name: Unify - Responsive Bootstrap Template
-* Version: 1.9.2
-* Author: @htmlstream
-* Website: http://htmlstream.com
+/*   
+ * Template Name: Unify - Responsive Bootstrap Template
+ * Description: Business, Corporate, Portfolio, E-commerce, Blog and One Page Template.
+ * Version: 1.7
+ * Author: @htmlstream
+ * Website: http://htmlstream.com
 */
 
 /*Parallax Slider (Main)
@@ -19,7 +20,7 @@
 @media (max-width: 450px) {
    .da-slide p {
       display:none;
-   }
+   }   
 }
 
 @media (max-width: 900px) {
@@ -58,12 +59,7 @@
 
 .tp-banner-container a.re-btn-brd:hover {
   color: #555;
-  background: #fff;
-}
-
-.tp-banner-container ul li {
-  list-style: none;
-  visibility: hidden;
+  background: #fff; 
 }
 
 /*Fullwidth*/
@@ -92,7 +88,7 @@
   content: ' ';
   position: absolute;
   background: rgba(0,0,0,0.3);
-}
+} 
 
 .revolution-ch1 {
   color: #fff;
@@ -100,7 +96,7 @@
   font-weight: 400;
   line-height: 60px;
   text-transform: uppercase;
-  font-family: "Open Sans", sans-serif;
+  font-family: "Open Sans", Arial, sans-serif;
 }
 
 .revolution-ch2 {
@@ -111,14 +107,14 @@
   position: relative;
   text-align: center;
   font-weight: normal;
-  font-family: "Open Sans", sans-serif;
+  font-family: "Open Sans", Arial, sans-serif;
 }
 
 .revolution-ch2:after {
   right: 50%;
   width: 70px;
   height: 2px;
-  content: ' ';
+  content: ' '; 
   bottom: -20px;
   background: #fff;
   margin-right: -35px;
@@ -132,7 +128,7 @@
   font-weight: 600;
   line-height: 60px;
   text-transform: uppercase;
-  font-family: "Open Sans", sans-serif;
+  font-family: "Open Sans", Arial, sans-serif;
 }
 
 .re-title-v2 {
@@ -142,20 +138,20 @@
   line-height: 45px;
   text-align: center;
   text-transform: uppercase;
-  font-family: "Open Sans", sans-serif;
+  font-family: "Open Sans", Arial, sans-serif;
 }
 
 .re-text-v1 {
   color: #fff;
   font-size: 24px;
   text-align: center;
-  font-family: "Open Sans", sans-serif;
+  font-family: "Open Sans", Arial, sans-serif;
 }
 
 .re-text-v2 {
   color: #fff;
   font-size: 24px;
-  font-family: "Open Sans", sans-serif;
+  font-family: "Open Sans", Arial, sans-serif;
 }
 
 /*Slides*/
@@ -266,10 +262,10 @@
 .clients {
   border: 0;
   overflow: hidden;
-  margin-top: 10px;
-  margin-bottom: 30px;
+  margin-top: 10px;      
+  margin-bottom: 30px;  
   box-shadow:none !important;
-  margin-bottom: 0 !important;
+  margin-bottom: 0 !important;    
 }
 .clients li {
   overflow: hidden;
@@ -286,7 +282,7 @@
   display: none;
   position: absolute;
 }
-.clients li:hover img.color-img {
+.clients li:hover img.color-img { 
   display: block;
 }
 .clients li img {
@@ -355,12 +351,12 @@
 }
 
 .counters span.counter-icon i:after {
-   width: 0;
+   width: 0; 
    height: 0;
    right: 38%;
-   content: " ";
+   content: " "; 
    bottom: -7px;
-   display: block;
+   display: block; 
    position: absolute;
    border-top: 7px solid #72c02c;
    border-right: 7px solid transparent;
@@ -492,10 +488,11 @@
   margin-bottom: 20px;
 }
 
-.owl-carousel-v5 .owl-controls .owl-page.active span,
-.owl-carousel-v5 .owl-controls.clickable .owl-page:hover span {
-  background: #72c02c;
-}
+/*Redundant code see line 528*/
+/*.owl-carousel-v5 .owl-controls .owl-page.active span,
+.owl-carousel-v5 .owl-controls .owl-page:hover span {
+
+}*/
 
 .owl-carousel-v5 .owl-controls .owl-page span {
   margin: 5px 3px !important;
@@ -528,10 +525,14 @@
   text-align: center !important;
 }
 
+/*fixed in v1.9*/
 .owl-theme .owl-controls .owl-page.active span,
-.owl-theme .owl-controls.clickable .owl-page:hover span {
+.owl-theme .owl-controls .owl-page:hover span {
   opacity: 1;
   filter: Alpha(Opacity=100);/*IE7 fix*/
+  background: #72c02c;
+  cursor: pointer;
+  opacity: 1;
 }
 
 .owl-theme .owl-controls .owl-page {
@@ -598,7 +599,7 @@
 /*Testimonials Section*/
 .testimonials-v3 {
   padding: 100px 0;
-  font-family: "Open Sans";
+  font-family: "Open Sans", Arial, sans-serif;
 }
 
 .testimonials-v3 ul {
@@ -640,17 +641,17 @@
   display: none;
 }
 
-.testimonials-v3 .owl-buttons .owl-prev,
-.testimonials-v3 .owl-buttons .owl-next {
+.testimonials-v3 .owl-nav .owl-prev,
+.testimonials-v3 .owl-nav .owl-next {
   padding: 13px;
   position: relative;
-  margin: 15px 2px 0;
+  margin: 15px 2px 0; 
     background: #f5f5f5;
-  display: inline-block;
+  display: inline-block;  
 }
 
-.testimonials-v3 .owl-buttons .owl-prev:after,
-.testimonials-v3 .owl-buttons .owl-next:after {
+.testimonials-v3 .owl-nav .owl-prev:after, 
+.testimonials-v3 .owl-nav .owl-next:after {
     top: 0;
     color: #bbb;
     font-size: 16px;
@@ -660,28 +661,28 @@
     font-family: FontAwesome;
 }
 
-.testimonials-v3 .owl-buttons .owl-prev:after {
+.testimonials-v3 .owl-nav .owl-prev:after {
   right: 10px;
   content: "\f104";
 }
 
-.testimonials-v3 .owl-buttons .owl-next:after {
+.testimonials-v3 .owl-nav .owl-next:after {
   left: 10px;
   content: "\f105";
 }
 
-.testimonials-v3 .owl-buttons .owl-prev:hover:after,
-.testimonials-v3 .owl-buttons .owl-next:hover:after {
+.testimonials-v3 .owl-nav .owl-prev:hover:after, 
+.testimonials-v3 .owl-nav .owl-next:hover:after {
   color: #fff;
 }
 
-.testimonials-v3 .owl-buttons .owl-prev:hover,
-.testimonials-v3 .owl-buttons .owl-next:hover {
+.testimonials-v3 .owl-nav .owl-prev:hover,
+.testimonials-v3 .owl-nav .owl-next:hover {
   background: #72c02c;
   -webkit-transition: background 0.4s ease-in-out;
   -moz-transition: background 0.4s ease-in-out;
   -o-transition: background 0.4s ease-in-out;
-  transition: background 0.4s ease-in-out;
+  transition: background 0.4s ease-in-out;  
 }
 
 /*Recent Works (Owl Carousel)
@@ -726,6 +727,9 @@
   color: #777;
 }
 
+.owl-work-v1 .item a {
+  display: inline-block;
+}
 .owl-work-v1 .item a img {
    -webkit-transition: all 0.8s ease-in-out;
    -moz-transition: all 0.8s ease-in-out;
@@ -760,14 +764,14 @@
   text-align: center;
   background: #333 url(../../img/bg/19.jpg) 50% 0 fixed;
   background-size: cover;
-  background-position: center bottom;
+  background-position: center center;    
 }
 
 .parallax-twitter:after {
   top: 0;
   right: 0;
   width: 100%;
-  height: 100%;
+  height: 100%; 
   content: " ";
   position: absolute;
   background: rgba(0,0,0,0.5);
@@ -777,7 +781,7 @@
   top: 0;
   right: 0;
   width: 100%;
-  height: 100%;
+  height: 100%; 
   content: " ";
   position: absolute;
   background: url(../../img/patterns/gridtile.png) repeat;
@@ -831,14 +835,14 @@
   position: relative;
   background: #333 url(../../img/bg/7.jpg) 50% fixed;
   background-size: cover;
-  background-position: center center;
+  background-position: center center;    
 }
 
 .clients-section:after {
   top: 0;
   right: 0;
   width: 100%;
-  height: 100%;
+  height: 100%; 
   content: " ";
   position: absolute;
   background: rgba(0,0,0,0.8);
@@ -848,7 +852,7 @@
   top: 0;
   right: 0;
   width: 100%;
-  height: 100%;
+  height: 100%; 
   content: " ";
   position: absolute;
   background: url(../../img/patterns/gridtile.png) repeat;
@@ -915,8 +919,4 @@
 
 .owl-video .owl-controls .owl-page span {
   margin: 5px 3px;
-}
-
-.no-before-bg-img:before {
-  background-image: none !important;
 }

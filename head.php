@@ -16,7 +16,9 @@
 	<link rel="stylesheet" href="assets/plugins/bootstrap/css/bootstrap.min.css">
 	<link rel="stylesheet" href="assets/css/one.style.css">
 
-	<!-- CSS Footer -->
+	<!-- CSS Header and Footer -->
+	<link rel="stylesheet" href="assets/css/headers/header-v6.css">
+	<link rel="stylesheet" href="assets/css/footers/footer-v1.css">
 	<link rel="stylesheet" href="assets/css/footers/footer-v7.css">
 
 	<!-- CSS Implementing Plugins -->
@@ -39,3 +41,5 @@
 
 	<!-- CSS Customization -->
 	<link rel="stylesheet" href="assets/css/custom.css">
+	<link rel="stylesheet" href="css/newstyle.css">
+
