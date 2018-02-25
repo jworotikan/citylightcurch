@@ -6,3 +6,32 @@
 	/* text-transform: uppercase; */
 	font-family: fantasy;
 }
+
+
+.section1 {
+  position: relative;
+  background: url(../img/clcurchbanner2.jpg) center fixed;
+  background-size: cover;
+}
+.section2 {
+  position: relative;
+  background: url(../img/clcbanner-3.jpeg) center fixed;
+  background-size: cover;
+}
+.section3 {
+  position: relative;
+  background: url(../img/clcbanner-4.jpg) center fixed;
+  background-size: cover;
+}
+
+.section4 {
+  position: relative;
+  background: url(../img/clcbanner-5.jpg) center fixed;
+  background-size: cover;
+}
+
+.section5 {
+  position: relative;
+  background: url(../img/clcbanner-6.jpg) center fixed;
+  background-size: cover;
+}
