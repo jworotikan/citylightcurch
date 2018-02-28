@@ -35,3 +35,27 @@
   background: url(../img/clcbanner-6.jpg) center fixed;
   background-size: cover;
 }
+
+.sec1 {
+  padding: 200px ;
+}
+
+.sec2 {
+  padding: 150px ;
+}
+
+h2.Htitle {
+  font-family: 'Oswald','HelveticaNeue','Helvetica Neue',Helvetica,Arial,sans-serif;
+  font-weight: 300;
+  font-size: 34px;
+  line-height: 1.1em;
+  text-transform: uppercase;
+}
+
+h2.Htitle2 {
+  font-family: 'Oswald','HelveticaNeue','Helvetica Neue',Helvetica,Arial,sans-serif;
+  font-weight: 300;
+  font-size: 75px;
+  line-height: 1.1em;
+  text-transform: uppercase;
+}
