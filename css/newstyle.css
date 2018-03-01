@@ -10,7 +10,7 @@
 
 .section1 {
   position: relative;
-  background: url(../img/clcurchbanner2.jpg) center fixed;
+  background: center fixed;
   background-size: cover;
 }
 .section2 {
