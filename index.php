@@ -43,14 +43,9 @@ require 'config/config.php';
 	<?php
 		require 'page_maps.php';
 		require 'section1.php';
-		require 'section2.php';
-		require 'section3.php';
-		require 'section4.php';
-		require 'section5.php';
 	?>
 
 	<?php
-		require 'section.php';
 		require 'footlink.php';
 	?>
 

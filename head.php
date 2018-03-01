@@ -1,4 +1,4 @@
-<title>Unify | Creative One Page Theme</title>
+<title>City Light Curch | Jakarta</title>
 
 	<!-- Meta -->
 	<meta charset="utf-8">
