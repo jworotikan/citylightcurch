@@ -6,7 +6,7 @@ echo '
 	<section id="contact" style="background-image:url('.$datacontent['imgbg'].')" class="section1">
 		<div class="container content-lg">
 			<div class="headline-center headline-light margin-bottom-60 sec1"  >
-				<h2 class="'.$datacontent['titleclass'].'">'.$datacontent['title'].'</h2>
+				<h2 class="Htitle">'.$datacontent['title'].'</h2>
 				'.$datacontent['content'].'
 			</div>
 
