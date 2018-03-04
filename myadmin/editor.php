@@ -2,14 +2,7 @@
 	include'config/conndb_admin.php';
 	include'config/getsession.php';
 
-	if ($_GET['link'] == 'topic') {
-		require'config/config-topic.php';
-	} elseif ($_GET['link'] == 'collection') {
-    require'config/config_admin.php';
-		require'config/config-collection.php';
-	}elseif ($_GET['link'] == 'rpjmn') {
-		require'config/config-startegicplan.php';
-	}elseif ($_GET['link'] == 'content') {
+	if ($_GET['link'] == 'content') {
     require'config/config_content.php';
   }
 	
@@ -39,7 +32,7 @@
       <!-- mini logo for sidebar mini 50x50 pixels -->
       <span class="logo-mini"></span>
       <!-- logo for regular state and mobile devices -->
-      <span class="logo-lg">REKAPIN</span>
+      <span class="logo-lg">City Light Curch</span>
     </a>
     <!-- Header Navbar: style can be found in header.less -->
     <nav class="navbar navbar-static-top">
@@ -140,52 +133,7 @@ return (true);
 
 <script src="plugins/ckeditor/ckeditor.js"></script>
 
-<?php if ($_GET['link'] == 'topic') { ?>
-<script>
-  $(function () {
-    //Date picker
-    $('#datepicker').datepicker({
-      autoclose: true
-    });
-    //Initialize Select2 Elements
-    $(".select2").select2();
-    CKEDITOR.replace('isi_op_en');
-    CKEDITOR.replace('isi_op_id');
-  });
-</script>
-<?php } elseif ($_GET['link'] == 'collection') { ?>
-<script>
-  $(function () {
-    //Date picker
-    $('#datepicker').datepicker({
-      autoclose: true
-    });
-    //Initialize Select2 Elements
-    $(".select2").select2();
-    CKEDITOR.replace('isi_col_en');
-    CKEDITOR.replace('isi_fin_en');
-    CKEDITOR.replace('isi_pol_en');
-    CKEDITOR.replace('metadesc_en');
-    CKEDITOR.replace('isi_col_id');
-    CKEDITOR.replace('isi_fin_id');
-    CKEDITOR.replace('isi_pol_id');
-    CKEDITOR.replace('metadesc_id');
-  });
-</script>
-<?php } elseif ($_GET['link'] == 'rpjmn') { ?>
-<script>
-  $(function () {
-    //Date picker
-    $('#datepicker').datepicker({
-      autoclose: true
-    });
-    //Initialize Select2 Elements
-    $(".select2").select2();
-    CKEDITOR.replace('isi_sp_en');
-    CKEDITOR.replace('isi_sp_id');
-  });
-</script>
-<?php } elseif ($_GET['link'] == 'content') { ?>
+<?php if ($_GET['link'] == 'content') { ?>
 <script>
   $(function () {
     //Date picker

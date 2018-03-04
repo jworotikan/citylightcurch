@@ -34,8 +34,6 @@
 	if(isset($_POST['simpancontent'])){  
 		$title_en = addslashes($_POST['judul_en']) ;
 		$isi_art_en = addslashes($_POST['isi_con_en']);
-		$title_id = addslashes($_POST['judul_id']) ;
-		$isi_art_id = addslashes($_POST['isi_con_id']);
 		$authorname = addslashes($_POST['author_name']);
 		$insertdate = date('Y-m-d', strtotime($_POST['published_date']));
 		$meta_desc_en= addslashes($_POST['metadesc_en']);
@@ -47,7 +45,7 @@
 		$user_id_created = $_SESSION['user_id'];
 		$name_of_user = $_SESSION['name_of_user'];
 
-			$inputarticle = mysqli_query($db_conn, "INSERT INTO dbcontent (cat_id, title_en, fulltext_en, mdesc_en, mkey_en, title_id, fulltext_id, mkey_id, mdesc_id, published, created_by, created_name, published_date) VALUES  ('$catlist','$title_en', '$isi_art_en', '$meta_desc_en', '$meta_key_en', '$title_id', '$isi_art_id', '$meta_desc_id', '$meta_key_id', $published_perm, '$user_id_created', '$name_of_user', '$insertdate')");
+			$inputarticle = mysqli_query($db_conn, "INSERT INTO dbcontent (cat_id, title_en, fulltext_en, mdesc_en, mkey_en, published, created_by, created_name, published_date) VALUES  ('$catlist','$title_en', '$isi_art_en', '$meta_desc_en', '$meta_key_en', '$isi_art_id', $published_perm, '$user_id_created', '$name_of_user', '$insertdate')");
 
 			$loginfo = mysqli_query($db_conn, "INSERT INTO dbuserloginfo (user_id, name, description) values ('$user_id_created', '$name_of_user', 'Create new Content' )");
 
