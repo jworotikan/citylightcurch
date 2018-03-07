@@ -143,9 +143,6 @@ return (true);
     //Initialize Select2 Elements
     $(".select2").select2();
     CKEDITOR.replace('isi_con_en');
-    CKEDITOR.replace('metadesc_en');
-    CKEDITOR.replace('isi_con_id');
-    CKEDITOR.replace('metadesc_id');
   });
 </script>
 <?php }; ?>

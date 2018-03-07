@@ -1,20 +1,19 @@
-<section id="contact" class="section2">
-		<div class="container content-lg">
-			<div class="headline-center headline-light margin-bottom-60 sec2">
-				<h2 class="Htitle2">KIDS LOVE THIS PLACE!</h2>
-				<p>THE ROCKS KIDS is a fun learning environment designed just for kids from walking age to Year 8. It’s free, totally secure and totally fun.</p>
-			</div>
+<?php
+	$pageid = $_GET['pid'];
+	$content=$db_conn->query("SELECT * FROM dbcontent where page_id = ".$pageid."");
+	while($datacontent=$content->fetch_array()) {
+?>
 
-			<div class="row contacts-in">
-				<div class="col-md-6 md-margin-bottom-40">
+<!--=== Parallax Backgound ===-->
+<div class="section-bg" style="background-image:url(<?php echo $datacontent['imgbg']?>)">
+	<div class="container">
+		<div class="margin-bottom-10">
+			<?php echo $datacontent['fulltext_en']?><br><br>
+		</div><!--/Headline Center V2-->
+	</div><!--/container-->
+</div>
+<!--=== End Parallax Backgound ===-->
 
-				</div>
-
-				<div class="col-md-6">
-
-				</div>
-			</div>
-		</div>
-
-	</section>
-	<!-- End Contact Section -->
+<?php
+	}
+?>

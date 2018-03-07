@@ -2257,7 +2257,7 @@
 }
 
 /*Image Backgrounds v2
-------------------------------------*/
+------------------------------------
 .bg-image-v2 {
   width: 100%;
   height: auto;
@@ -2276,7 +2276,7 @@
   background: rgba(255,255,255,0.7);
 }
 
-/*Background Dark Cover*/
+/*Background Dark Cover
 .bg-image-v2-dark:before {
   top: 0;
   left: 0;
@@ -3556,7 +3556,7 @@
   padding: 200px 0;
   position: relative;
   text-align: center;
-  background: url(../img/bg/18.jpg) no-repeat;
+  /*background: url(../img/bg/18.jpg) no-repeat;*/
   background-size: cover;
   background-position: center center;
 }

@@ -1,3 +1,80 @@
+.intro-page {
+  z-index: 1;
+  padding: 364px 0;
+  position: relative;
+  text-align: center;
+  /*background: url(../img/bg/18.jpg) no-repeat;*/
+  background-size: cover;
+  background-position: center center;
+}
+
+.intro-page h1 {
+  color: #fff;
+  font-size: 70px;
+  font-weight: 600;
+  line-height: 80px;
+  text-transform: uppercase;
+}
+
+.intro-page p {
+  color: #fff;
+  font-size: 24px;
+  font-weight: 200;
+  font-family: "Open Sans", Arial, sans-serif;
+}
+
+@media (max-width: 768px) {
+  .intro-page {
+    padding: 250px 0;
+  }
+
+  .intro-page h1 {
+  font-size: 21px;
+  font-weight: 600;
+  /*line-height: 20px;*/
+  text-transform: uppercase;
+  }
+  .intro-page p {
+    color: #fff;
+    font-size: 14px;
+    font-weight: 200;
+    font-family: "Open Sans", Arial, sans-serif;
+  }
+}
+
+
+/*section style*/
+/*-----------------------------*/
+.section-bg {
+  position: relative;
+  background: center fixed;
+  background-size: cover;
+  padding: 300px 0;
+  text-align: center;
+}
+
+.section-bg h2 {
+ color: #fff;
+ font-size: 75pt;
+ line-height: 60px;
+}
+
+.section-bg p {
+ color: #fff;
+ font-size: 12pt;
+ line-height: 60px;
+}
+
+@media (max-width: 768px) {
+ .section-bg h2 {
+  color: #fff;
+  font-size: 45pt;
+  line-height: 60px;
+ }
+}
+
+
+
 .re-title-v1 {
 	color: #fff;
 	font-size: 75px;
@@ -8,11 +85,8 @@
 }
 
 
-.section1 {
-  position: relative;
-  background: center fixed;
-  background-size: cover;
-}
+
+
 .section2 {
   position: relative;
   background: url(../img/clcbanner-3.jpeg) center fixed;

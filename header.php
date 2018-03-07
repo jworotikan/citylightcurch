@@ -27,12 +27,12 @@
             				if ($numsubmenu == 0) {
             					echo '
             					<li>
-            				<a id="menuhome" href="'.$datamenu['urls_en'].'&link='.$datamenu['link'].'&pid='.$datamenu['id'].'">'.$datamenu['title_en'].'</a>
+            				<a id="menuhome" href="'.$datamenu['urls_en'].'page='.$datamenu['link'].'&pid='.$datamenu['id'].'">'.$datamenu['title_en'].'</a>
             			</li>';
             		} else {
             					echo '
             			<li class="dropdown">
-           					<a href="'.$datamenu['urls_en'].'&link='.$datamenu['link'].'&pid='.$datamenu['id'].'" class="dropdown-toggle" data-toggle="dropdown">'.$datamenu['title_en'].'</a>
+           					<a href="'.$datamenu['urls_en'].'page='.$datamenu['link'].'&pid='.$datamenu['id'].'" class="dropdown-toggle" data-toggle="dropdown">'.$datamenu['title_en'].'</a>
 		                      <ul class="dropdown-menu">';
 		                        	while($datasubmenu=$submenu->fetch_array())  {
 		                        		$nextsubmenu=$db_conn->query("SELECT * FROM dbmmenu WHERE menutype='1' and published='1' and parent_id=".$datasubmenu['id']);
@@ -40,17 +40,17 @@
             										if ($numnextsubmenu == 0) {
             											echo '
             									<li>
-            										<a id="menuhome" href="'.$datasubmenu['urls_en'].'&link='.$datasubmenu['link'].'&pid='.$datamenu['id'].'">'.$datasubmenu['title_en'].'</a>
+            										<a id="menuhome" href="'.$datasubmenu['urls_en'].'page='.$datasubmenu['link'].'&pid='.$datamenu['id'].'">'.$datasubmenu['title_en'].'</a>
             								</li>';
             										} else {
             											echo '
             									<li class="dropdown-submenu">
-            											<a id="menuhome" href="'.$datasubmenu['urls_en'].'&link='.$datasubmenu['link'].'&pid='.$datamenu['id'].'">'.$datasubmenu['title_en'].'</a>
+            											<a id="menuhome" href="'.$datasubmenu['urls_en'].'page='.$datasubmenu['link'].'&pid='.$datamenu['id'].'">'.$datasubmenu['title_en'].'</a>
                 											<ul class="dropdown-menu">';
                 														while($datanextsubmenu=$nextsubmenu->fetch_array())  {
                 															echo '
                 													<li>
-            															<a id="menuhome" href="'.$datanextsubmenu['urls_en'].'&link='.$datanextsubmenu['link'].'&pid='.$datamenu['id'].'&id='.$datanextsubmenu['m_pos'].'">'.$datanextsubmenu['title_en'].'</a>
+            															<a id="menuhome" href="'.$datanextsubmenu['urls_en'].'page='.$datanextsubmenu['link'].'&pid='.$datamenu['id'].'&id='.$datanextsubmenu['m_pos'].'">'.$datanextsubmenu['title_en'].'</a>
             													</li>';
                 														}
                 														echo'
