@@ -42,6 +42,104 @@
   }
 }
 
+.intro-page2 {
+  z-index: 1;
+  padding: 500px 0 35px;
+  position: relative;
+  text-align: center;
+  /*background: url(../img/bg/18.jpg) no-repeat;*/
+  background-size: cover;
+  background-position: center center;
+}
+
+.intro-page2 h1 {
+  color: #fff;
+  font-size: 40px;
+  font-weight: 600;
+  line-height: 50px;
+  text-transform: uppercase;
+}
+
+.intro-page2 p {
+  color: #fff;
+  font-size: 18px;
+  font-weight: 200;
+  font-family: "Open Sans", Arial, sans-serif;
+}
+
+@media (max-width: 768px) {
+  .intro-page2 {
+    padding: 250px 0;
+  }
+
+  .intro-page2 h1 {
+  font-size: 21px;
+  font-weight: 600;
+  /*line-height: 20px;*/
+  text-transform: uppercase;
+  }
+  .intro-page2 p {
+    color: #fff;
+    font-size: 14px;
+    font-weight: 200;
+    font-family: "Open Sans", Arial, sans-serif;
+  }
+}
+
+.intro-signup {
+  z-index: 1;
+  padding: 400px 0 400px;
+  position: relative;
+  text-align: left;
+  /*background: url(../img/bg/18.jpg) no-repeat;*/
+  background-size: cover;
+  background-position: center center;
+}
+
+.intro-signup h1 {
+  color: #fff;
+  font-size: 40px;
+  font-weight: 600;
+  line-height: 50px;
+  text-transform: uppercase;
+  background-color: #000;
+  opacity: 0.6;
+}
+
+.intro-signup p {
+  color: #fff;
+  font-size: 18px;
+  font-weight: 200;
+  font-family: "Open Sans", Arial, sans-serif;
+  background-color: #000;
+  opacity: 0.6;
+}
+
+.signuptext {
+  padding-right: 600px;
+}
+
+@media (max-width: 768px) {
+  .intro-signup {
+    padding: 250px 0;
+  }
+
+  .intro-signup h1 {
+  font-size: 21px;
+  font-weight: 600;
+  /*line-height: 20px;*/
+  text-transform: uppercase;
+  }
+  .intro-signup p {
+    color: #fff;
+    font-size: 14px;
+    font-weight: 200;
+    font-family: "Open Sans", Arial, sans-serif;
+  }
+}
+
+
+
 
 /*section style*/
 /*-----------------------------*/

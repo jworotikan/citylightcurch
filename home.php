@@ -54,11 +54,18 @@ require 'config/config.php';
 	<?php } ?>
 
 	<?php
-		require 'page_maps.php';
+		if ($_GET['pid'] == '1' && '2') {
+			require 'page_maps.php';
+		}
+		
 		require 'section2.php';
 		if ($_GET['pid'] == '2') {
 			require 'contentlist.php';
 		}
+		if ($_GET['pid'] == '6') {
+			require 'registerform.php';
+		}
+		require 'footer.php';
 	?>
 
 	<?php
