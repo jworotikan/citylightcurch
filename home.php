@@ -54,7 +54,7 @@ require 'config/config.php';
 	<?php } ?>
 
 	<?php
-		if ($_GET['pid'] == '1' && '2') {
+		if ($_GET['pid'] == '1' || $_GET['pid'] == '2') {
 			require 'page_maps.php';
 		}
 		

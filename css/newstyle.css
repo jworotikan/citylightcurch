@@ -1,6 +1,5 @@
-.intro-page {
+.introlayer {
   z-index: 1;
-  padding: 364px 0;
   position: relative;
   text-align: center;
   /*background: url(../img/bg/18.jpg) no-repeat;*/
@@ -8,51 +7,33 @@
   background-position: center center;
 }
 
-.intro-page h1 {
+.introlayer h1{
   color: #fff;
-  font-size: 70px;
-  font-weight: 600;
-  line-height: 80px;
   text-transform: uppercase;
 }
 
-.intro-page p {
+.introhome {
+  padding: 364px 0;
+}
+
+.introhome h1 {
+  font-size: 70px;
+  font-weight: 600;
+  line-height: 80px;
+}
+
+.introhome p {
   color: #fff;
   font-size: 24px;
   font-weight: 200;
   font-family: "Open Sans", Arial, sans-serif;
 }
 
-@media (max-width: 768px) {
-  .intro-page {
-    padding: 250px 0;
-  }
-
-  .intro-page h1 {
-  font-size: 21px;
-  font-weight: 600;
-  /*line-height: 20px;*/
-  text-transform: uppercase;
-  }
-  .intro-page p {
-    color: #fff;
-    font-size: 14px;
-    font-weight: 200;
-    font-family: "Open Sans", Arial, sans-serif;
-  }
-}
-
-.intro-page2 {
-  z-index: 1;
+.introplan {
   padding: 500px 0 35px;
-  position: relative;
-  text-align: center;
-  /*background: url(../img/bg/18.jpg) no-repeat;*/
-  background-size: cover;
-  background-position: center center;
 }
 
-.intro-page2 h1 {
+.introplan h1 {
   color: #fff;
   font-size: 40px;
   font-weight: 600;
@@ -60,53 +41,26 @@
   text-transform: uppercase;
 }
 
-.intro-page2 p {
+.introplan p {
   color: #fff;
   font-size: 18px;
   font-weight: 200;
   font-family: "Open Sans", Arial, sans-serif;
 }
 
-@media (max-width: 768px) {
-  .intro-page2 {
-    padding: 250px 0;
-  }
-
-  .intro-page2 h1 {
-  font-size: 21px;
-  font-weight: 600;
-  /*line-height: 20px;*/
-  text-transform: uppercase;
-  }
-  .intro-page2 p {
-    color: #fff;
-    font-size: 14px;
-    font-weight: 200;
-    font-family: "Open Sans", Arial, sans-serif;
-  }
-}
-
-.intro-signup {
-  z-index: 1;
+.introsignup {
   padding: 400px 0 400px;
-  position: relative;
-  text-align: left;
-  /*background: url(../img/bg/18.jpg) no-repeat;*/
-  background-size: cover;
-  background-position: center center;
 }
 
-.intro-signup h1 {
-  color: #fff;
+.introsignup h1 {
   font-size: 40px;
   font-weight: 600;
   line-height: 50px;
-  text-transform: uppercase;
   background-color: #000;
   opacity: 0.6;
 }
 
-.intro-signup p {
+.introsignup p {
   color: #fff;
   font-size: 18px;
   font-weight: 200;
@@ -119,18 +73,48 @@
   padding-right: 600px;
 }
 
+
 @media (max-width: 768px) {
-  .intro-signup {
+  .introhome {
     padding: 250px 0;
   }
 
-  .intro-signup h1 {
+  .introhome h1 {
   font-size: 21px;
   font-weight: 600;
-  /*line-height: 20px;*/
-  text-transform: uppercase;
   }
-  .intro-signup p {
+  .introhome p {
+    color: #fff;
+    font-size: 14px;
+    font-weight: 200;
+    font-family: "Open Sans", Arial, sans-serif;
+  }
+
+
+  .introplan {
+    padding: 250px 0;
+  }
+
+  .introplan h1 {
+  font-size: 21px;
+  font-weight: 600;
+  }
+  .introplan p {
+    color: #fff;
+    font-size: 14px;
+    font-weight: 200;
+    font-family: "Open Sans", Arial, sans-serif;
+  }
+
+  .introsignup {
+    padding: 250px 0;
+  }
+
+  .introsignup h1 {
+  font-size: 21px;
+  font-weight: 600;
+  }
+  .introsignup p {
     color: #fff;
     font-size: 14px;
     font-weight: 200;
