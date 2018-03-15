@@ -36,7 +36,8 @@
 	<link rel="stylesheet" href="assets/css/plugins/style-switcher.css">
 
 	<!-- CSS Theme -->
-	<link rel="stylesheet" href="assets/css/theme-colors/default.css" id="style_color">
+	<link rel="stylesheet" href="assets/css/pages/page_search.css">
+	<link rel="stylesheet" href="assets/css/theme-colors/light.css" id="style_color">
 	<link rel="stylesheet" href="assets/css/theme-skins/one.dark.css">
 
 	<!-- CSS Customization -->

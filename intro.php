@@ -27,4 +27,20 @@
 	</div>
 </div>
 
+<?php } else if ($_GET['pid'] == '8') {?>
+
+		<!--=== Search Block ===-->
+		<div class="search-block parallaxBg" style="background: url(img/intro-contact-us.jpg) 50% 0px / 106% no-repeat fixed;">
+			<div class="container">
+				<div class="col-md-6 col-md-offset-3 contactus">
+					<h1>WE’D LOVE TO HEAR FROM YOU</h1>
+					<p>citylightchurchjakarta@gmail.com</p>
+
+					<div class="input-group">
+					</div>
+				</div>
+			</div>
+		</div><!--/container-->
+		<!--=== End Search Block ===-->
+
 <?php } ?>
