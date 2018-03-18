@@ -75,19 +75,19 @@
                 <label for="inputfullname" class="control-label">Bagaimana Anda Mengenal CLC?</label>
               </div>
               <div class="col-sm-4">
-                <label class="checkbox"><input type="checkbox" name="checkbox"><i></i>Majalah</label>
-                <label class="checkbox"><input type="checkbox" name="checkbox"><i></i>Koran</label>
-                <label class="checkbox"><input type="checkbox" name="checkbox"><i></i>Flyer</label>
+                <label class="checkbox formcheck"><input type="checkbox" name="checkbox"><i></i>Majalah</label>
+                <label class="checkbox formcheck"><input type="checkbox" name="checkbox"><i></i>Koran</label>
+                <label class="checkbox formcheck"><input type="checkbox" name="checkbox"><i></i>Flyer</label>
               </div>
               <div class="col-sm-4">
-                <label class="checkbox"><input type="checkbox" name="checkbox"><i></i>Invitation</label>
-                <label class="checkbox"><input type="checkbox" name="checkbox"><i></i>Website</label>
-                <label class="checkbox"><input type="checkbox" name="checkbox"><i></i>Facebook</label>
+                <label class="checkbox formcheck"><input type="checkbox" name="checkbox"><i></i>Invitation</label>
+                <label class="checkbox formcheck"><input type="checkbox" name="checkbox"><i></i>Website</label>
+                <label class="checkbox formcheck"><input type="checkbox" name="checkbox"><i></i>Facebook</label>
               </div>
               <div class="col-sm-4">
-                <label class="checkbox"><input type="checkbox" name="checkbox"><i></i>Twitter</label>
-                <label class="checkbox"><input type="checkbox" name="checkbox"><i></i>E-Mail</label>
-                <label class="checkbox"><input type="checkbox" name="checkbox"><i></i>Teman</label>
+                <label class="checkbox formcheck"><input type="checkbox" name="checkbox"><i></i>Twitter</label>
+                <label class="checkbox formcheck"><input type="checkbox" name="checkbox"><i></i>E-Mail</label>
+                <label class="checkbox formcheck"><input type="checkbox" name="checkbox"><i></i>Teman</label>
               </div>  
             </div>
             
@@ -98,18 +98,18 @@
                 <label for="inputfullname" class="control-label">Harap beri tanda tick di box yang sesuai (bisa lebih dari satu)</label>
               </div>
               <div class="col-sm-12">
-                <label class="checkbox"><input type="checkbox" name="checkbox"><i></i>Saya mau tahu lebih lagi tentang CITY LIGHT CHURCH </label>
-                <label class="checkbox"><input type="checkbox" name="checkbox"><i></i>Saya ingin tahu bagaimana menjadi orang Kristen / Dibaptis</label>
-                <label class="checkbox"><input type="checkbox" name="checkbox"><i></i>Saya mau melayani di CITY LIGHT CHURCH</label>
+                <label class="checkbox formcheck"><input type="checkbox" name="checkbox"><i></i>Saya mau tahu lebih lagi tentang CITY LIGHT CHURCH </label>
+                <label class="checkbox formcheck"><input type="checkbox" name="checkbox"><i></i>Saya ingin tahu bagaimana menjadi orang Kristen / Dibaptis</label>
+                <label class="checkbox formcheck"><input type="checkbox" name="checkbox"><i></i>Saya mau melayani di CITY LIGHT CHURCH</label>
               </div>
               <div class="col-sm-7">
-                <label class="checkbox"><input type="checkbox" name="checkbox"><i></i>Saya mengambil keputusan penting hari ini :</label>
+                <label class="checkbox formcheck"><input type="checkbox" name="checkbox"><i></i>Saya mengambil keputusan penting hari ini :</label>
               </div>
               <div class="col-sm-5">
                 <input type="text" class="form-control" name="fullname" id="inputfullname" value="">
               </div>
               <div class="col-sm-3">
-                <label class="checkbox"><input type="checkbox" name="checkbox"><i></i>Yang Lain:</label>
+                <label class="checkbox formcheck"><input type="checkbox" name="checkbox"><i></i>Yang Lain:</label>
               </div>
               <div class="col-sm-9">
                 <input type="text" class="form-control" name="fullname" id="inputfullname" value="">
@@ -118,10 +118,10 @@
 
             <div class="row">
               <div class="col-sm-12">
-                <p>Kami sangat menghargai masukan Anda. Harap beritahu kami bagaimana pengalaman anda hari ini di gereja kami atau kalau ada yang bisa kami doakan :</p>
+                 <label for="inputfullname" class="control-label">Kami sangat menghargai masukan Anda. Harap beritahu kami bagaimana pengalaman anda hari ini di gereja kami atau kalau ada yang bisa kami doakan :</label>
               </div>
               <div class="col-md-12">
-                <textarea id="editor1" name="mkey_en" rows="3" cols="40" placeholder="Alamat"></textarea>
+                <textarea id="editor1" name="mkey_en" rows="3" cols="40" placeholder=""></textarea>
               </div>  
             </div>
             

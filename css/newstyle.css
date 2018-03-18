@@ -232,3 +232,14 @@ h2.Htitle2 {
 .contact-session p {
 
 }
+
+.formcheck {
+  margin-left: 20px;
+}
+
+
+@media (min-width: 768px) {
+  .form-horizontal .control-label {
+    text-align: justify;
+  }
+}

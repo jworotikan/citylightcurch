@@ -1,6 +1,6 @@
 -- --------------------------------------------------------
 -- Host:                         127.0.0.1
--- Server version:               10.1.30-MariaDB - mariadb.org binary distribution
+-- Server version:               10.1.28-MariaDB - mariadb.org binary distribution
 -- Server OS:                    Win32
 -- HeidiSQL Version:             9.4.0.5125
 -- --------------------------------------------------------
@@ -126,7 +126,7 @@ DELETE FROM `dbmmenu`;
 /*!40000 ALTER TABLE `dbmmenu` DISABLE KEYS */;
 INSERT INTO `dbmmenu` (`id`, `menutype`, `title_en`, `urls_en`, `title_id`, `urls_id`, `link`, `published`, `parent_id`, `level`, `m_pos`) VALUES
 	(1, 1, 'Home', 'home.php?', 'Beranda', 'index.php?lang=2', 'home', 1, 0, 1, 1),
-	(2, 1, 'Plan a Visit', 'home.php?', 'Koleksi', '', 'plan-a-visit', 1, 0, 1, 2),
+	(2, 1, 'Plan a Visit', 'planavisit.php?', 'Koleksi', '', 'plan-a-visit', 1, 0, 1, 2),
 	(4, 1, 'What Next', 'home.php?', 'RPJMN', 'rpjmn.php?lang=2', 'rpjmn-home', 1, 0, 1, 3),
 	(5, 1, 'Give', 'home.php?', 'Jenis Koleksi', 'collection.php?lang=2', 'collection-home', 1, 0, 1, 4),
 	(6, 1, 'Sign Up', 'home.php?', 'Laporan Penelitian', 'collection-list.php?lang=2', 'collection-list', 1, 0, 1, 5),
@@ -403,7 +403,7 @@ CREATE TABLE IF NOT EXISTS `dbmvisitor` (
   PRIMARY KEY (`id`)
 ) ENGINE=InnoDB AUTO_INCREMENT=17140 DEFAULT CHARSET=latin1;
 
--- Dumping data for table clcurch.dbmvisitor: ~16.932 rows (approximately)
+-- Dumping data for table clcurch.dbmvisitor: ~16,934 rows (approximately)
 DELETE FROM `dbmvisitor`;
 /*!40000 ALTER TABLE `dbmvisitor` DISABLE KEYS */;
 INSERT INTO `dbmvisitor` (`id`, `pagetype`, `page`, `date_visit`, `hits`) VALUES

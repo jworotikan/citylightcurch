@@ -42,14 +42,6 @@ require 'config/config.php';
 		</div>
 		<!-- End Service Box --><!--/end row-->
 	</div>
-	<?php } else if ($_GET['pid'] == '2') { ?>
-		
-	<div class="container">
-		<div class="headline-center margin-bottom-60">
-			<h2>JOIN US EVERY SUNDAY 9:00-10:15 A.M & 11:00 AM-12:15 PM</h2>
-			<p>26 Cecil Avenue, Cannington Perth WA 6107</p>
-		</div><!--/end Headline Center-->
-	</div>
 
 	<?php } ?>
 
