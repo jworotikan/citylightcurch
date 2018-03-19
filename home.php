@@ -30,14 +30,16 @@ require 'config/config.php';
 			<div class="col-sm-6 md-margin-bottom-50">
 				<img alt="" src="img/maps.png" class="image-md margin-bottom-20">
 				<p>WORSHIP EXPERIENCE<br>
-					SUNDAY 9:00 & 11:00 AM<br>
-					26 CECIL AVENUE, CANNINGTON</p>
+					Sunday 11:00 AM to 12:20 PM<br>
+		Gd. OT - AHAVA Hall<br>
+		Kav. 35-36, Rawa Buaya<br>
+		Jakarta Barat - Indonesia</p>
 			</div>
 			<div class="col-sm-6 flat-service md-margin-bottom-50">
 				<img alt="" src="img/question.png" class="image-md margin-bottom-20">
 				<p>GOT QUESTIONS?<br>
 					E-MAIL YOUR INQUIRY TO:<br>
-					INFO@THEROCKS.CHURCH</p>
+					citylightchurchjakarta@gmail.com</p>
 			</div>
 		</div>
 		<!-- End Service Box --><!--/end row-->
@@ -60,9 +62,7 @@ require 'config/config.php';
 		require 'footer.php';
 	?>
 
-	<?php
-		require 'footlink.php';
-	?>
+
 
 </body>
 </html>
