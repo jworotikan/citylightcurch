@@ -54,7 +54,7 @@ require 'config/config.php';
 </dir>
 <hr>
 <div class="container contact-session">
-	<form action="assets/php/demo-contacts-process.php" method="post" id="sky-form3" class="sky-form">
+	<form action="config/send_mail.php" method="post" id="sky-form3" class="sky-form">
 		<header>Contacts Us</header>
 		<fieldset>
 			<div class="row">

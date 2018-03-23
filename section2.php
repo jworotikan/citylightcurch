@@ -7,10 +7,11 @@
 <!--=== Parallax Backgound ===-->
 <div class="section-bg" style="background-image:url(<?php echo $datacontent['imgbg']?>)">
 	<div class="container">
-		<div class="margin-bottom-10">
+		<div class="col-md-2"></div>
+		<div class="col-md-8 clsection">
 				<?php echo $datacontent['fulltext_en']?><br><br>
-			
 		</div><!--/Headline Center V2-->
+		<div class="col-md-2"></div>
 	</div><!--/container-->
 </div>
 <!--=== End Parallax Backgound ===-->

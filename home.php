@@ -31,9 +31,9 @@ require 'config/config.php';
 				<img alt="" src="img/maps.png" class="image-md margin-bottom-20">
 				<p>WORSHIP EXPERIENCE<br>
 					Sunday 11:00 AM to 12:20 PM<br>
-		Gd. OT - AHAVA Hall<br>
-		Kav. 35-36, Rawa Buaya<br>
-		Jakarta Barat - Indonesia</p>
+					Gd. OT - AHAVA Hall<br>
+					Kav. 35-36, Rawa Buaya<br>
+					Jakarta Barat - Indonesia</p>
 			</div>
 			<div class="col-sm-6 flat-service md-margin-bottom-50">
 				<img alt="" src="img/question.png" class="image-md margin-bottom-20">
@@ -57,7 +57,7 @@ require 'config/config.php';
 			require 'contentlist.php';
 		}
 		if ($_GET['pid'] == '6') {
-			require 'registerform.php';
+			require 'registerform2.php';
 		}
 		require 'footer.php';
 	?>
