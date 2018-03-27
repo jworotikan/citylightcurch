@@ -16,15 +16,9 @@ require 'config/config.php';
 <body id="body" data-spy="scroll" data-target=".one-page-header" class="demo-lightbox-gallery">
 	<?php
 		require 'header.php';
+		require 'intro.php';
+		if ($_GET['pid'] == '1') {
 	?>
-	
-	<div class="introlayer introhome" style="background-image:url(img/home1.jpg) ">
-		<div class="container">
-			<h1>NO PERFECT PEOPLE ALLOWED</h1>
-			<p>COME AS YOU ARE</p>
-		</div>
-	</div>
-
 	<div class="container">
 		<div class="headline-center margin-bottom-60">
 			<h2>EXPERIENCE CHURCH LIKE NEVER BEFORE</h2>
@@ -51,10 +45,24 @@ require 'config/config.php';
 		<!-- End Service Box --><!--/end row-->
 	</div>
 
+	<?php } ?>
+
 	<?php
-		require 'page_maps.php';
+		if ($_GET['pid'] == '1' || $_GET['pid'] == '2' || $_GET['pid'] == '8') {
+			require 'page_maps.php';
+		}
+		
 		require 'section2.php';
+		if ($_GET['pid'] == '2') {
+			require 'contentlist.php';
+		}
+		if ($_GET['pid'] == '6') {
+			require 'registerform2.php';
+		}
 		require 'footer.php';
 	?>
+
+
+
 </body>
 </html>

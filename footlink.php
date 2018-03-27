@@ -19,6 +19,7 @@
 	<script type="text/javascript" src="assets/js/app.js"></script>
 	<script type="text/javascript" src="assets/js/plugins/style-switcher.js"></script>
 	<script type="text/javascript" src="assets/js/plugins/revolution-slider.js"></script>
+	<script type="text/javascript" src="assets/plugins/wow-animations/js/wow.min.js"></script>
 	<script type="text/javascript">
 		jQuery(document).ready(function() {
 			App.init();

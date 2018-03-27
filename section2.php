@@ -5,7 +5,7 @@
 ?>
 
 <!--=== Parallax Backgound ===-->
-<div class="section-bg" style="background-image:url(<?php echo $datacontent['imgbg']?>)">
+<div class="section-bg fullsection" style="background-image:url(<?php echo $datacontent['imgbg']?>)">
 	<div class="container">
 		<div class="col-md-2"></div>
 		<div class="col-md-8 clsection">
